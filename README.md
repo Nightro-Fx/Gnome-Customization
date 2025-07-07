@@ -40,3 +40,11 @@ sudo apt install gnome-tweaks
 ## Entension Manager
 ###### Install the following extentions which you can search for in the Browse tab
 <img src="https://github.com/Nightro-Fx/Gnome-Customization/blob/main/img/Browse.png" width="370" alt="Logo"/> <img src="https://github.com/Nightro-Fx/Gnome-Customization/blob/main/img/Extensions.png" width="370" alt="Logo"/>
+
+###### Such extentions can be found in the offical website:
+```bash
+xdg-open "https://extensions.gnome.org/extension/19/user-themes/"
+xdg-open "https://extensions.gnome.org/extension/1160/dash-to-panel/"
+xdg-open "https://extensions.gnome.org/extension/3628/arcmenu/"
+xdg-open "https://extensions.gnome.org/extension/615/appindicator-support/"
+```
