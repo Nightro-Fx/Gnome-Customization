@@ -40,31 +40,3 @@ sudo apt install gnome-tweaks
 ## Entension Manager
 ###### Install the following extentions which you can search for in the Browse tab
 <img src="https://github.com/Nightro-Fx/Gnome-Customization/blob/main/img/Browse.png" width="370" alt="Logo"/> <img src="https://github.com/Nightro-Fx/Gnome-Customization/blob/main/img/Extensions.png" width="370" alt="Logo"/>
-
-###### Or You can automate the process by running the following:
-```bash
-# Create temp dir
-mkdir -p ~/gnome-extensions && cd ~/gnome-extensions
-
-# Download extensions
-wget -O appindicator.zip "https://github.com/Nightro-Fx/Gnome-Customization/raw/refs/heads/main/Gnome%20Extentions/appindicatorsupportrgcjonas.gmail.com.v60.shell-extension.zip"
-wget -O arcmenu.zip "https://github.com/Nightro-Fx/Gnome-Customization/raw/refs/heads/main/Gnome%20Extentions/arcmenuarcmenu.com.v64.shell-extension.zip"
-wget -O dash-to-panel.zip "https://github.com/Nightro-Fx/Gnome-Customization/raw/refs/heads/main/Gnome%20Extentions/dash-to-paneljderose9.github.com.v66.shell-extension.zip"
-wget -O user-theme.zip "https://github.com/Nightro-Fx/Gnome-Customization/raw/refs/heads/main/Gnome%20Extentions/user-themegnome-shell-extensions.gcampax.github.com.v64.shell-extension.zip"
-
-# Install extensions
-gnome-extensions install --force appindicator.zip
-gnome-extensions install --force arcmenu.zip
-gnome-extensions install --force dash-to-panel.zip
-gnome-extensions install --force user-theme.zip
-
-# Enable extensions
-gnome-extensions enable appindicatorsupportrgcjonas.gmail.com
-gnome-extensions enable arcmenuarcmenu.com
-gnome-extensions enable dash-to-paneljderose9.github.com
-gnome-extensions enable user-themegnome-shell-extensions.gcampax.github.com
-gnome-extensions enable ding@rastersoft.com
-
-# Disable extensions
-gnome-extensions disable apps-menu@gnome-shell-extensions.gcampax.github.com
-gnome-extensions disable ubuntu-dock@ubuntu.com
