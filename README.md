@@ -29,6 +29,7 @@
 ```bash
 sudo apt install gnome-shell-extension-manager
 sudo add-apt-repository ppa:tomtomtom/conky-manager
+sudo add-apt-repository ppa:ubuntuhandbook1/conkymanager2
 sudo apt update
 sudo apt install conky-manager2
 sudo apt install gnome-tweaks
