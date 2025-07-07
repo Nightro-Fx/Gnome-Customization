@@ -62,3 +62,8 @@ gnome-extensions enable appindicatorsupportrgcjonas.gmail.com
 gnome-extensions enable arcmenuarcmenu.com
 gnome-extensions enable dash-to-paneljderose9.github.com
 gnome-extensions enable user-themegnome-shell-extensions.gcampax.github.com
+gnome-extensions enable ding@rastersoft.com
+
+# Disable extensions
+gnome-extensions disable apps-menu@gnome-shell-extensions.gcampax.github.com
+gnome-extensions disable ubuntu-dock@ubuntu.com
