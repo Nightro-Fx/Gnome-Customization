@@ -33,6 +33,7 @@ sudo add-apt-repository ppa:ubuntuhandbook1/conkymanager2
 sudo apt update
 sudo apt install conky-manager2
 sudo apt install gnome-tweaks
+sudo apt install playerctl
 ```
 > [!TIP]
 > Launch command are `extension-manager`, `gnome-tweaks` & `conky-manager2`
@@ -52,3 +53,32 @@ xdg-open "https://extensions.gnome.org/extension/615/appindicator-support/"
 > To hide the Application Button, Go into Dash to Panel settings using the extention manager and **deselect** the `visible` button of "Show Application button". As an alternative press **Windows Key + A**.
 
 ## Conky
+### Setting up Widgets:
+###### For this tutorial we will use the Antares widget, You can choose your own [here](https://www.gnome-look.org/browse?cat=124&ord=latest)
+```bash
+xdg-open "https://www.gnome-look.org/p/1831404" 
+```
+###### Extract the file into the following directory
+```bash
+xdg-open ~/.config/conky
+```
+###### Remove the pre-installed widget (Optional)
+```bash
+rm -r ~/.conky
+```
+###### Besure to refresh the list every time you make any changes
+<img src="https://github.com/Nightro-Fx/Gnome-Customization/blob/main/img/Refresh.png" width="370" alt="Logo"/>
+
+###### Select & Toggle the widget of your choice. 
+<img src="https://github.com/Nightro-Fx/Gnome-Customization/blob/main/img/Toggle%26Select.png" width="370" alt="Logo"/>
+
+###### Click on the Edit Widget button
+<img src="https://github.com/Nightro-Fx/Gnome-Customization/blob/main/img/Edit_Widget.png" width="370" alt="Logo"/>
+
+###### In the transparency tab, Select Transparent within the dropdown and click Apply.
+<img src="https://github.com/Nightro-Fx/Gnome-Customization/blob/main/img/Transparent.png" width="370" alt="Logo"/>
+
+### Setting up the weather:
+> [!TIP]
+> If your temprature is blank then run: `[ -f ~/.cache/weather.json ] || touch ~/.cache/weather.json` in your terminal.
+> After that execute the `weather-v2.0.sh` as a program
