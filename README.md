@@ -48,3 +48,7 @@ xdg-open "https://extensions.gnome.org/extension/1160/dash-to-panel/"
 xdg-open "https://extensions.gnome.org/extension/3628/arcmenu/"
 xdg-open "https://extensions.gnome.org/extension/615/appindicator-support/"
 ```
+> [!TIP]
+> To hide the Application Button, Go into Dash to Panel settings using the extention manager and **deselect** the `visible` button of "Show Application button". As an alternative press **Windows Key + A**.
+
+## Conky
